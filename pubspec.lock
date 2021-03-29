@@ -355,9 +355,11 @@ packages:
   sliver_tools:
     dependency: "direct main"
     description:
-      name: sliver_tools
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "."
+      ref: "fix/floating-point-error"
+      resolved-ref: "0bb707b8a2ddf41f9503237d7e34b5854205a38f"
+      url: "git://github.com/Kavantix/sliver_tools.git"
+    source: git
     version: "0.2.0"
   source_gen:
     dependency: transitive

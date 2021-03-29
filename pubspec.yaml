@@ -25,7 +25,10 @@ dependencies:
     sdk: flutter
   built_value: ^8.0.4
   cupertino_icons: ^1.0.2
-  sliver_tools: 0.2.0
+  sliver_tools:
+    git: 
+      url: git://github.com/Kavantix/sliver_tools.git
+      ref: fix/floating-point-error
 
 dev_dependencies:
   flutter_test:
